@@ -40,3 +40,17 @@
 17、<el-button>
                 type属性决定按钮的显示样式
                 size属性决定按钮的大小
+18、<el-form>
+                        inline属性设置表单中元素依次往后显示
+                        label-position和label-width设置表单内所有label的位置和宽度
+                        rules属性设置表单验证采用哪个规则
+                        ref属性定义了其他标签使用表单数据时，应该引用什么名称
+         <el-form-item>
+                            prop属性的值决定了表单验证时对应的哪个验证规则
+      掌握表单验证和清除
+19、<el-option>的选项显示由label属性决定
+20、<el-checkbox>应该用label来决定每个复选框显示的文字，而不是在标签内部写
+21、<el-dialog> visible.sync属性设置对话框是否显示
+22、this.$confirm确认提示框，点击按钮时弹出提示框。
+23、<el-pagination>分页组件，掌握各种属性的作用
+24、初步使用Axios，具体使用应该去看说明文档
